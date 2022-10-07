@@ -1,20 +1,9 @@
-# What's in this website?
 An asynchronous, robust website URLs explorer<br>
 Highly configurable, yet fast and simple.<br>
 I developed this for pentesting purposes.<br>
 nmap's http module does quite the same, but with a lot of dependencies. 
 Companies provide this service for money, so I decided to do it on my own.<br>
 <b>Please use it responsibly.<b>
-
-### Examples
-```bash
-git clone git@github.com:avilum/smart-url-fuzzer.git && cd smart-url-fuzzer
-pip install -r requirements.txt
-```
-```bash
-# This will find all the active endpoints in https://www.example.com
-$ ./fuzz
-```
 
 ### Custom words lists
 ```bash
